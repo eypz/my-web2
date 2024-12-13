@@ -1,17 +1,18 @@
 {
-  "name": "my-website",
+  "name": "express-app",
   "version": "1.0.0",
-  "description": "A simple static website hosted on Render",
-  "main": "index.js",
+  "description": "An Express.js app for serving static files and HTML pages.",
+  "main": "app.js",
   "scripts": {
-    "start": "node express.js",
-    "build": "echo 'No build step needed for static site'"
+    "start": "node app.js"
   },
   "dependencies": {
     "express": "^4.18.2"
   },
-  "devDependencies": {
-    "nodemon": "^2.0.22"
+  "engines": {
+    "node": ">=16.x"
   },
+  "keywords": [],
+  "author": "Eypz",
   "license": "ISC"
 }
